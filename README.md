@@ -76,5 +76,5 @@ upload and install Files_manager.zpp
 
 Next realse feature:
 	- Zip, Unzip on server
-	- Intergate with zpanel database and use zpanel login to access ftp
+	- Integrate with zpanel database and use zpanel login to access ftp
 	(contiune)
