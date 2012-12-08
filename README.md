@@ -3,6 +3,8 @@ ajaxplorer-zpanel
 
 intergate Ajaxplorer with Zpanel
 
+Version: 1.0
+
 Install AjaxPlorer 4 on Zpanel
 
 First, you need to download ajaxplorer, following the command below:
@@ -71,3 +73,8 @@ Final step, go to https://github.com/wrk73/ajaxplorer-zpanel
 Download Files_manager.zpp then go to Go to admin/module admin
 
 upload and install Files_manager.zpp
+
+Next realse feature:
+	- Zip, Unzip on server
+	- Intergate with zpanel database and use zpanel login to access ftp
+	(contiune)
