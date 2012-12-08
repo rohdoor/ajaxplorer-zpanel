@@ -25,32 +25,32 @@ Edit following file:
 
 File ajaxplorer/conf/bootstrap_plugins.php find and edit:
 
-"AUTH_DRIVER" => array(
-	"NAME" => "ftp",
-	"OPTIONS" => array(
-	"LOGIN_REDIRECT" => false,
-	"REPOSITORY_ID" => "your_id_ftp",
-	"ADMIN_USER" => "admin",
-	"FTP_LOGIN_SCREEN" => TRUE,
-	"AUTOCREATE_AJXPUSER" => true,
-	"TRANSMIT_CLEAR_PASS" => true,
-	)
-),
+	"AUTH_DRIVER" => array(
+		"NAME" => "ftp",
+		"OPTIONS" => array(
+		"LOGIN_REDIRECT" => false,
+		"REPOSITORY_ID" => "your_id_ftp",
+		"ADMIN_USER" => "admin",
+		"FTP_LOGIN_SCREEN" => TRUE,
+		"AUTOCREATE_AJXPUSER" => true,
+		"TRANSMIT_CLEAR_PASS" => true,
+		)
+	),
 
 File ajaxplorer/conf/boostrap_reponstories.php add
 
-// FTP
-$REPOSITORIES["your_id_ftp"] = array(
-	"DISPLAY" => "Wrk FTP Server",
-	"DRIVER" => "ftp",
-	"DRIVER_OPTIONS"=> array(
-	"FTP_HOST" => "your_ftp_server.com",
-	"FTP_PORT" => "21",
-	"DEFAULT_RIGHTS" => "rw",
-	"USE_SESSION_CREDENTIALS" => true,
-	"TMP_UPLOAD" => "AJXP_DATA_PATH/tmp",
-	)
-);
+	// FTP
+	$REPOSITORIES["your_id_ftp"] = array(
+		"DISPLAY" => "Wrk FTP Server",
+		"DRIVER" => "ftp",
+		"DRIVER_OPTIONS"=> array(
+		"FTP_HOST" => "your_ftp_server.com",
+		"FTP_PORT" => "21",
+		"DEFAULT_RIGHTS" => "rw",
+		"USE_SESSION_CREDENTIALS" => true,
+		"TMP_UPLOAD" => "AJXP_DATA_PATH/tmp",
+		)
+	);
 
 Run command:
 
